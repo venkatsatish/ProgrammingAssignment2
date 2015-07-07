@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+# Below function stores takes the matrix stores it in m, if the value is not present it returns null
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+# Below function searches whether the matrix is present in makeCachematrix , if it is not present it creates the inverse and stores in m
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   m <- x$getinverse()
